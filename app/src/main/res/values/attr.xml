@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DrawProgressCircleView">
+        <attr name="imageHeight" format="integer"/>
+        <attr name="imageWidth" format="integer"/>
+        <attr name="betweenWidth" format="integer"/>
+        <attr name="progressLoadColor" format="color"/>
+        <attr name="progressUnLoaderColor" format="color"/>
+        <attr name="betweenColor" format="color"/>
+        <attr name="progressWidth" format="integer"/>
+        <attr name="image" format="reference"/>
+        <attr name="outEdgeWidth" format="integer"/>
+        <attr name="startAngle" format="float" />
+        <attr name="sweepAngle" format="float"/>
+    </declare-styleable>
+
+</resources>
