@@ -179,7 +179,6 @@ public class DrawProgressCircleView extends View {
 
         canvas.translate(mWidth / 2,mHeight / 2);
 
-        drawAuxiliaryLine(canvas);      //辅助线
         drawBetweenImageAndProgress(canvas);
         drawImage(canvas);
         drawProgress(canvas);
@@ -245,15 +244,6 @@ public class DrawProgressCircleView extends View {
 
     //end_____________初始化画笔______________
 
-
-    private void drawAuxiliaryLine(Canvas canvas) {
-        Paint paint = new Paint();
-        paint.setStrokeWidth(5);
-        paint.setColor(Color.WHITE);
-        canvas.drawLine(0, -399, 0, 399, paint);
-        canvas.drawLine(-399, 0, 399, 0, paint);
-
-    }
 
     private void drawImage(Canvas canvas) {
 //        Bitmap bitmap = BitmapFactory.decodeResource(getContext().getResources(), R.drawable.bg_draw_progress_circle);
